@@ -19,23 +19,23 @@
     <script type="text/javascript" src="./script.js">
 </script>
    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button type="button" class="btn btn-primary" id="open-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  data-bs-target="#newton-modal">
   Launch static backdrop modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade dal-dialog modal-dialog-centere" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">New Modal</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" id ="open-modal" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque facere ipsa voluptate ea dicta similique veritatis repudiandae esse fuga alias doloribus dolor totam at ducimus cumque necessitatibus exercitationem illo, cum quos accusantium nemo reiciendis maxime tempora. Dicta veniam maiores odit!
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" id="open-modal" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         
       </div>
     </div>
